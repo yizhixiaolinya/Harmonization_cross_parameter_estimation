@@ -1,28 +1,27 @@
 # MRI Harmonization Project
-> **Imaging-Parameter–Aware Multi-Site MRI Harmonization**
+> **Unified MRI Harmonization with Dual Image–Parameter Conditioning and Scanner-Aware Semantic Constraints**
 
-## 📖 Introduction
-This repository hosts the upcoming implementation of our **MRI harmonization framework**, which aims to reduce inter-scanner and inter-protocol variability in multi-site neuroimaging studies.  
-Our method leverages imaging-parameter–aware deep learning to translate MRI data between different scanner styles (e.g., Siemens ↔ GE ↔ Philips) while preserving anatomical fidelity and quantitative consistency.
+## 📖 Overview
+This repository will host the public release of our **Unified MRI Harmonization** framework, designed to mitigate inter-scanner and inter-protocol variability in large multi-site neuroimaging cohorts.  
+The method integrates **dual image–parameter conditioning** and **scanner-aware semantic constraints** to translate MRI data across vendor styles (e.g., Siemens ↔ GE ↔ Philips) while preserving anatomical fidelity and quantitative integrity.
 
-Key features to be included:
-- **Parameter-Aware Generator**: Utilizes TR, TE, TI, FA, and voxel size as conditioning for style transfer.  
-- **Cross-Site Harmonization**: Supports any-to-any vendor/protocol adaptation.  
-- **High-Fidelity Reconstruction**: Optimized for PSNR/SSIM and scanner-parameter alignment.
+### Key Features (planned)
+- **Parameter-Aware Generator**: Conditions on TR, TE, TI, FA, and voxel size for protocol-specific style transfer.  
+- **Cross-Vendor Adaptation**: Supports any-to-any scanner/protocol harmonization.  
+- **High-Fidelity Reconstruction**: Optimized for PSNR/SSIM and consistent imaging-parameter alignment.
 
 ## 🧠 Motivation
-Multi-site neuroimaging is essential for large-scale studies of aging and neurodegenerative disease.  
-However, scanner hardware, acquisition protocols, and software upgrades introduce systematic intensity and contrast differences, which hinder reproducibility and model generalization.  
-Our harmonization approach addresses these challenges, enabling:
-- **Reliable downstream analysis** (e.g., AD classification, lesion detection).  
-- **Improved cross-site model performance** in clinical and research settings.
+Multi-site neuroimaging enables large-scale studies of aging and neurodegenerative disease, but scanner hardware, acquisition protocols, and software upgrades create systematic intensity and contrast differences that hinder reproducibility and model generalization.  
+Our harmonization framework addresses these issues to deliver:
+- **Robust downstream analysis** (e.g., Alzheimer’s disease classification, lesion detection).  
+- **Improved cross-site model performance** in both research and clinical workflows.
 
 ## 🚧 Project Status
-The codebase is currently under **active re-organization and documentation**.  
-- ✅ Core algorithms and training pipelines are complete in internal experiments.  
-- 📝 We are cleaning, modularizing, and preparing the code for public release.  
+The codebase is under **active re-organization and documentation**.  
+- ✅ Core algorithms and training pipelines are complete and validated internally.  
+- 📝 Public-facing modules and tutorials are being cleaned and modularized.
 
-> **Estimated public release:** _To be announced_.  
-Stay tuned by watching or starring the repository for updates.
+> **Estimated public release:** _TBA_.  
+Watch or star the repository to receive updates.
 
-## 🗂️ Planned Repository Structure
+## 🗂️ Planned Repository Layout
